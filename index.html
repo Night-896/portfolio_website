@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- New elegant Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sidebar Navigation -->
+    <header class="sidebar">
+        <div class="brand">Portfolio</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="themeToggle" class="theme-toggle">🌙 Dark Mode</button>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="content">
+        <!-- Hero / About Me Section -->
+        <section id="about" class="hero">
+            <div class="hero-text">
+                <h1>Hi, I'm JD</h1>
+                <h2>A BSIT 3rd Year Student</h2>
+                <p>A meek programmer with a passion for creating beautiful and functional web applications.</p>
+            </div>
+            <!-- Profile photo with your file name -->
+            <img src="jondavid.jpg" alt="JD profile photo" class="profile-photo">
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Selected Works</h2>
+            <div class="project-list">
+                <!-- Horizontal Project Card 1 -->
+                <div class="project-card">
+                    <img src="Student_Dashboard.png" alt="Screenshot of Student Dashboard">
+                    <div class="project-info">
+                        <h3>Student Dashboard</h3>
+                        <p>A comprehensive dashboard made in ReactJS for calculating student grades and average scores.</p>
+                    </div>
+                </div>
+                <!-- Horizontal Project Card 2 -->
+                <div class="project-card">
+                    <img src="FlameWok_Hi-Fi Design.png" alt="Screenshot of FlameWok Hi-Fi Design">
+                    <div class="project-info">
+                        <h3>FlameWok</h3>
+                        <p>A Hi-Fi design for a restaurant's online ordering system.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer / Contact Section -->
+        <section id="contact">
+            <h2>Let's Connect</h2>
+            <div class="contact-card">
+                <p>Email: jdrich.deleon@gmail.com</p>
+                <p>
+                    <a href="https://github.com/Night-896" target="_blank">GitHub</a> &nbsp;|&nbsp; 
+                    <a href="https://www.facebook.com/jondavidaldrich.david" target="_blank">Facebook</a>
+                </p>
+            </div>
+        </section>
+        
+        <footer>
+            <p>&copy; 2026 JD Developer. All rights reserved.</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
